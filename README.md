@@ -17,4 +17,11 @@ LZWdecode:
 
 Complements LZWencode by decoding the sequence of phrase numbers back into the original hexadecimal stream. This step decompresses the data, ensuring that the exact input to LZWencode can be reconstructed.
 
+# Key Features:
+
+- Hexadecimal Conversion: Allows seamless conversion between bytes and hexadecimal digits for compatibility with various data formats and clear representation of processed data.
+
+- LZW Algorithm Implementation: Achieves efficient compression during encoding and accurate decompression during decoding through dynamic dictionary-based pattern recognition.
+  
+- Data Integrity: The pipeline ensures that the final output matches the initial input, verifying the correctness of the encoding and decoding processes.
 
