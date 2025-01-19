@@ -28,7 +28,11 @@ Complements LZWencode by decoding the sequence of phrase numbers back into the o
 
 # Instructions to Run the Files
 
-Before running the programs, ensure that you have compiled the Java files into class files by executing the following commands in your terminal or command prompt:
+Before running the programs, use the cd command to navigate to the directory containing java files. For example:
+
+cd path/to/your/java/files
+
+Ensure that you have compiled the Java files into class files by executing the following commands in your terminal or command prompt:
 
 javac ByteToHex.java
 
